@@ -1,0 +1,17 @@
+在运行npx @chakra-ui/cli snippet add时，总是出现错误，我不知道有其他方式可以提醒你们，所有我创建了这个文件。
+⬆translate： When running npx @ chakra-ui/cli snippet add, there are always errors. I don't know any other way to tell you, so I created this file.
+
+D:\study\react-fastapi\frontend>npx @chakra-ui/cli snippet add
+┌  Chakra CLI ⚡️
+<anonymous_script>:1
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+^
+
+SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at Response.json (file:///C:/Users/liuninghe/AppData/Local/npm-cache/_npx/de2e382d70c335ff/node_modules/node-fetch/src/body.js:149:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchCompositions (file:///C:/Users/liuninghe/AppData/Local/npm-cache/_npx/de2e382d70c335ff/node_modules/@chakra-ui/cli/dist/esm/utils/fetch.js:12:16)
+    at async Command.<anonymous> (file:///C:/Users/liuninghe/AppData/Local/npm-cache/_npx/de2e382d70c335ff/node_modules/@chakra-ui/cli/dist/esm/commands/snippet.js:32:19)
+
+Node.js v22.14.0
